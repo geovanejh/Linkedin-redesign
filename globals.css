@@ -1,75 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*, html {
-    box-sizing: border-box;
-    font-family: Montserrat;
+*,
+html {
+  box-sizing: border-box;
+  font-family: Montserrat;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    height: 10vh;
-} 
-
-header > a:first-child {
-    border-right: 1px solid #F4F4F4;
-    padding: 0 40px;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  max-height: 80px;
+  width: 100%;
 }
 
-.logo {    
-    height: 46px;
-    width: 46px;
+header > a {
+  margin: 17px 40px 17px 40px;
+  height: 100%;
 }
 
-header nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo {
+  height: 46px;
+  width: 46px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .user-content {
-    display: flex;
+  width: 330px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-left: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  margin-left: 10px;
+}
+.user-content > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 17px;
+}
+
+.search-field > div > div > h3 {
+  margin-bottom: 10px;
+}
+
+.search-field > div > div > small > span {
+  color: green;
 }
 
 header nav ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 33px;
 }
 
 header nav ul li a img {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 header nav ul li:nth-child(4) a img {
-    height: 18px;
-    width: 18px;
+  height: 18px;
+  width: 18px;
 }
 
 nav {
-    border-right: 1px solid #F4F4F4;
+  border-right: 1px solid #f4f4f4;
+  border-left: 1px solid #f4f4f4;
+  height: 110px;
 }
 
 header nav ul li a {
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.other {
+  border-right: 1px solid #f4f4f4;
+  width: 126px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
-    color: black;
+  color: black;
 }
 
 .search-field {
-    padding: 0 46px;
-    display: flex;
-    border-right: 10px solid #F4F4F4;
+  margin: 0 20px;
+  display: flex;
 }
 
-.search-field input {
-    margin-left: 33px;
+.search-field > a > img {
+  margin-top: 17px;
+}
+
+.search-field > input {
+  margin-top: 17px;
+  margin-left: 17px;
+  height: 33px;
 }
