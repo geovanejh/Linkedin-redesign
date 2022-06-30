@@ -1,5 +1,77 @@
-main {
-    background-color: #E5E5E5;
-    height: 90vh;
+body {
+  background-color: #e5e5e5;
 }
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+  height: 360px;
+  width: 850px;
+  border-radius: 4px;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+.img-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  width: 170px;
+  height: 170px;
+}
+
+.img-profile {
+  /* margin-top: 40px; */
+}
+
+.img-profile > img {
+  margin-top: -46px;
+}
+
+.profile-info {
+  display: flex;
+}
+
+.card-profile-info {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin-top: 120px;
+  margin-left: 25px;
+}
+
+.card-profile-info > span > img {
+  margin-left: 8px;
+}
+
+.card-profile-info > span > span > img {
+  margin-left: 191px;
+}
+
+.profile-button {
+  margin-top: 14px;
+}
+
+.profile-button button {
+  color: #fff;
+  width: 170px;
+  height: 32px;
+  left: calc(50% - 170px / 2 - 285px);
+  top: 413px;
+  border: none;
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 4px;
+}
+
+button:hover {
+  color: #0275b1;
+  background: #fff;
+  border: 1px solid #0275b1;
+}
