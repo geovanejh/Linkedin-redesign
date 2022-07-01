@@ -102,17 +102,18 @@ button:hover {
 .about-button button {
   height: 50px;
   width: 240px;
-  border: none;
+
   background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
   border-radius: 4px;
   color: #fff;
   margin-bottom: 60px;
+  border: 1px solid #e7e7e7;
 }
 
 .about-button button:hover {
   color: #0275b1;
   background: #fff;
-  border: 1px solid #0275b1;
+  border: 1px solid #e7e7e7;
   height: 40px;
   width: 240px;
 }
