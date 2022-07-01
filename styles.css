@@ -138,4 +138,6 @@ button:hover {
 .about a {
   font-size: 12px;
   line-height: 11px;
+  color: #0275b1;
+  font-weight: 700;
 }
