@@ -33,10 +33,44 @@ body {
   height: 170px;
   width: 170px;
   margin-top: -25px;
+  margin-left: 25px;
 }
 
-.profile > img:first-child {
+/* .profile > img:first-child {
   width: 100%;
+} */
+
+.capa {
+  width: 100%;
+}
+
+.edit-button {
+  position: absolute;
+  padding: 10px;
+  margin-left: 650px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border-radius: 4px;
+  color: black;
+  margin-top: 17px;
+  font-size: 12px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-button img {
+  margin-right: 10px;
+}
+
+.download-button {
+  position: absolute;
+  padding: 0;
+}
+
+.more-button {
+  position: absolute;
+  margin-left: 780px;
 }
 
 .profile-info > div > div:first-child img{
@@ -51,6 +85,7 @@ body {
 
 .profile-info > div > div {
   display: flex;
+  align-items: center;
 }
 
 .profile-info > div {
@@ -75,7 +110,7 @@ body {
 .profile-info h2{
   font-size: 18px;
   line-height: 17px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .profile-info p {
@@ -121,6 +156,7 @@ body {
   background: #0275b1;
   border: 1px solid #fff;
 }
+
 
 /* .card-profile {
   display: flex;
@@ -210,6 +246,8 @@ button:hover {
 .about {
   height: 200px;
   background-color: #fff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
 }
 
 .about-buttons button {
@@ -223,10 +261,13 @@ button:hover {
   border: none;
   border: 1px solid #e7e7e7;
   border-radius: 0px 4px 0px 0px;
+  font-weight: 600;
 }
 
 .about-buttons {
-  margin-top: 21px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .about-buttons button:hover {
@@ -235,10 +276,10 @@ button:hover {
   border-radius: 4px 4px 0px 0px;
   border: 1px solid #e7e7e7;
   height: 50px;
+  margin-top: -10px;
 }
 
 .about > div {
-  margin-left: 24px;
   padding: 60px 30px;
 }
 
@@ -259,7 +300,7 @@ button:hover {
   font-size: 12px;
   line-height: 11px;
   color: #0275b1;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .about-buttons {
@@ -288,7 +329,11 @@ h3 {
 }
 
 .project-card div {
-  margin-right: 20px;
+  margin-right: 25px;
+}
+
+.project-card div:nth-child(3) {
+  margin: 0;
 }
 
 .projects-content h3 {
@@ -307,6 +352,7 @@ h3 {
   font-size: 14px;
   line-height: 150%;
   margin-top: 15px;
+  font-weight: 500;
 }
 
 .project-card > div > small {
@@ -365,7 +411,7 @@ h3 {
 }
 
 .projects-content p {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .experience-card h5 {
