@@ -16,12 +16,12 @@ header > div > a:first-child {
   display: flex;
 }
 
-header > div > a:first-child > img{
+header > div > a:first-child > img {
   padding: 0 40px;
 }
 
-@media(max-width: 1440px) {
-  header > div > a:first-child img{
+@media (max-width: 1440px) {
+  header > div > a:first-child img {
     padding: 0;
   }
 
@@ -44,8 +44,8 @@ header > div {
 
 header nav {
   padding: 0 20px;
-  border-right: 1px solid #F4F4F4;
-  border-left: 1px solid #F4F4F4;
+  border-right: 1px solid #f4f4f4;
+  border-left: 1px solid #f4f4f4;
 }
 
 header nav ul li a img {
@@ -54,15 +54,15 @@ header nav ul li a img {
   margin-bottom: 10px;
 }
 
-header nav > ul > li > a:last-child{
+header nav > ul > li > a:last-child {
   font-size: 12px;
   line-height: 11px;
   text-align: center;
   color: black;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
-header  nav > ul > li:nth-child(4) > a img {
+header nav > ul > li:nth-child(4) > a img {
   height: 18px;
   width: 18px;
 }
@@ -84,7 +84,7 @@ header nav ul {
 
 .search-field {
   width: 380px;
-  border-right: 1px solid #F4F4F4;
+  border-right: 1px solid #f4f4f4;
   height: 80px;
   display: flex;
   align-items: center;
@@ -97,20 +97,20 @@ header nav ul {
   width: 275px;
 }
 
-.search-field input:focus{
+.search-field input:focus {
   outline: none;
 }
 
 .search-field input::placeholder {
   font-size: 16px;
-line-height: 15px;
-color: #CECECE;
+  line-height: 15px;
+  color: #cecece;
 }
 
 .user-content {
   display: flex;
   align-items: center;
-  border-right: 1px solid #F4F4F4;
+  border-right: 1px solid #f4f4f4;
   width: 326px;
 }
 
@@ -121,7 +121,7 @@ color: #CECECE;
   font-weight: 600;
 }
 
-.user-content > div:last-child h4 span{
+.user-content > div:last-child h4 span {
   font-size: 12px;
   line-height: 11px;
   text-transform: uppercase;
@@ -148,14 +148,14 @@ color: #CECECE;
 }
 
 .user-content small span {
-  color: #02B033;
+  color: #02b033;
 }
 
-.other { 
+.other {
   padding: 0 20px;
   font-size: 12px;
   line-height: 11px;
-  border-right: 1px solid #F4F4F4;
+  border-right: 1px solid #f4f4f4;
   margin-right: 40px;
 }
 
@@ -194,8 +194,8 @@ footer > div {
   line-height: 11px;
 }
 
-.navigation h5{
-  margin-bottom:30px;
+.navigation h5 {
+  margin-bottom: 30px;
   font-weight: 600;
 }
 
@@ -207,7 +207,7 @@ footer > div {
   color: black;
 }
 
-.navigation > div ul a:hover{
+.navigation > div ul a:hover {
   text-decoration: underline;
 }
 
@@ -226,48 +226,48 @@ footer > div {
 }
 
 .footer-logo p {
-  margin-top:12px;
+  margin-top: 12px;
   font-size: 14px;
   line-height: 150%;
   font-weight: 600;
 }
 
 .footer-logo span {
-  color: #0275B1;
+  color: #0275b1;
 }
 
-.footer-buttons h5{
+.footer-buttons h5 {
   margin-bottom: 23px;
   font-weight: 600;
   font-size: 12px;
   line-height: 11px;
 }
 
-.language-select h5{
+.language-select h5 {
   margin-bottom: 23px;
   font-weight: 600;
   font-size: 12px;
   line-height: 11px;
 }
 
-.language-select select { 
+.language-select select {
   width: 270px;
-  background: #FFFFFF;
-border: 1px solid #F0F0F0;
-border-radius: 4px;
-font-weight: 600;
-font-size: 12px;
-line-height: 11px;
-padding: 7.5px 5px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 11px;
+  padding: 7.5px 5px;
 }
 
-.language-select select:focus{
+.language-select select:focus {
   outline: none;
 }
 
 .primary-button {
-  background: #0275B1;
-  border: 1px solid #0275B1;
+  background: #0275b1;
+  border: 1px solid #0275b1;
   border-radius: 4px;
   padding: 10px 15px;
   width: 170px;
@@ -282,19 +282,19 @@ padding: 7.5px 5px;
 
 .primary-button:hover {
   background: white;
-  border: 1px solid #0275B1;
-  color: #0275B1;
+  border: 1px solid #0275b1;
+  color: #0275b1;
 }
 
 .secondary-button:hover {
-  background: #0275B1;
-  border: 1px solid #0275B1;
+  background: #0275b1;
+  border: 1px solid #0275b1;
   color: white;
 }
 
 .secondary-button {
   background: white;
-  border: 1px solid #0275B1;
+  border: 1px solid #0275b1;
   border-radius: 4px;
   padding: 10px 15px;
   width: 170px;
@@ -302,7 +302,7 @@ padding: 7.5px 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #0275B1;
+  color: #0275b1;
   font-weight: 600;
 }
 
@@ -312,7 +312,7 @@ header nav li:hover a {
 
 header nav li:hover {
   cursor: pointer;
-  border-bottom: 2px solid #0275B1;
+  border-bottom: 2px solid #0275b1;
 }
 
 .notification {
@@ -321,8 +321,18 @@ header nav li:hover {
   margin-left: 8px;
 }
 
-@media(max-width: 1440px) {
-  header > div > a:first-child img{
+.feed {
+  border-bottom: 2px solid #3d5d6e;
+
+  filter: invert(31%) sepia(71%) saturate(4869%) hue-rotate(183deg) brightness(89%) contrast(98%);
+}
+
+.feed:hover {
+  filter: invert(31%) sepia(71%) saturate(4869%) hue-rotate(130deg) brightness(89%) contrast(98%);
+}
+
+@media (max-width: 1440px) {
+  header > div > a:first-child img {
     padding: 0 10px;
   }
 
@@ -331,6 +341,3 @@ header nav li:hover {
     margin: 0;
   }
 }
-
-
-
