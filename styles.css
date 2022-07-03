@@ -6,8 +6,8 @@ button {
 
 hr {
   height: 1px;
-        background-color: #e7e7e7;
-        border: none;
+  background-color: #e7e7e7;
+  border: none;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -15,7 +15,6 @@ hr {
 body {
   background-color: #f7f9fb;
 }
-
 
 .container {
   max-width: 1200px;
@@ -27,13 +26,12 @@ body {
   margin: auto;
 }
 
-@media(max-width: 1440px) {
+@media (max-width: 1440px) {
   .header-container {
     max-width: 1200px;
     margin: auto;
   }
 }
-
 
 .profile {
   margin-top: 40px;
@@ -518,7 +516,7 @@ strong {
   line-height: 11px;
   text-transform: uppercase;
   font-weight: 600;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
   padding-bottom: 20px;
 }
 
@@ -539,7 +537,7 @@ strong {
   height: 24px;
   width: 24px;
   margin-right: 25px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .new-post-icons img:last-child {
@@ -552,12 +550,12 @@ strong {
   display: flex;
   justify-content: center;
   width: 100%;
-  align-items: center; 
+  align-items: center;
   padding: 0 20px;
   margin: 30px 0;
   height: 1px;
-  border-left: 335px solid #E7E7E7;
-  border-right: 335px solid #E7E7E7;
+  border-left: 335px solid #e7e7e7;
+  border-right: 335px solid #e7e7e7;
   font-weight: 600;
 }
 
@@ -566,10 +564,10 @@ strong {
 }
 
 .trending span {
-  color: #0275B1;
+  color: #0275b1;
 }
 
-.trending h4 { 
+.trending h4 {
   font-size: 12px;
   line-height: 11px;
   margin-right: 5px;
@@ -578,7 +576,7 @@ strong {
 
 .post-card {
   margin-bottom: 20px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 4px;
 }
 
@@ -589,15 +587,15 @@ strong {
   align-items: center;
   font-size: 10px;
   line-height: 150%;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
 }
 
 .post-interactions > div p {
-  padding: 15px; 
+  padding: 15px;
 }
 
 .post-interactions > div a {
-  color: #0275B1;
+  color: #0275b1;
 }
 
 .post-author {
@@ -641,7 +639,7 @@ strong {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #E9F0F8;
+  background: #e9f0f8;
   border-radius: 4px;
   padding: 20px 30px 20px 20px;
   margin-bottom: 10px;
@@ -679,7 +677,7 @@ strong {
 }
 
 .post-content a {
-  color: #0275B1;
+  color: #0275b1;
   font-size: 12px;
   line-height: 11px;
   font-weight: 600;
@@ -690,7 +688,7 @@ strong {
   justify-content: space-between;
   height: 50px;
   align-items: center;
-  border-top: 1px solid #F4F4F4;
+  border-top: 1px solid #f4f4f4;
 }
 
 .post-feedback > div {
@@ -701,6 +699,7 @@ strong {
   height: 12px;
   width: 12px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .post-feedback > div span {
@@ -714,7 +713,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #F4F4F4;
+  border-right: 1px solid #f4f4f4;
   height: 50px;
 }
 
@@ -722,11 +721,11 @@ strong {
   width: 100px;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid #F4F4F4;
+  border-left: 1px solid #f4f4f4;
   height: 50px;
 }
 
-.profile-aside > img{
+.profile-aside > img {
   width: 100%;
   height: 120px;
 }
@@ -772,14 +771,14 @@ strong {
 .button-aside {
   margin-top: 20px;
   padding: 20px 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 4px;
   display: flex;
   justify-content: center;
 }
 
 .button-aside button {
-  background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
   border-radius: 4px;
   border: none;
   color: #fff;
@@ -791,47 +790,47 @@ strong {
 
 .button-aside button:hover {
   background: white;
-  color: #0275B1;
-  border: 1px solid #0275B1;
+  color: #0275b1;
+  border: 1px solid #0275b1;
   cursor: pointer;
 }
 
 .groups-aside {
   margin-top: 20px;
   padding: 25px 30px;
-  background: #FCFDFD;
+  background: #fcfdfd;
   border-radius: 4px;
 }
 
 .groups-aside > div:first-child {
   display: flex;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
   padding-bottom: 20px;
   justify-content: space-between;
 }
 
-.groups-aside > div:first-child h5{
+.groups-aside > div:first-child h5 {
   font-size: 12px;
   font-weight: 600;
   line-height: 11px;
 }
 
 .groups-aside > div:first-child a {
-  color: #0275B1;
+  color: #0275b1;
   font-weight: 600;
   font-size: 12px;
-line-height: 11px;
+  line-height: 11px;
 }
 
 .group-card {
   padding: 15px;
-  border: 1px solid #F4F4F4;
+  border: 1px solid #f4f4f4;
   border-radius: 6px;
   display: flex;
   margin-top: 10px;
 }
 
-.groups-aside > div:nth-child(2){
+.groups-aside > div:nth-child(2) {
   margin-top: 20px;
 }
 
@@ -849,7 +848,7 @@ line-height: 11px;
 
 .groups-aside > p {
   margin-top: 25px;
-  color: #0275B1;
+  color: #0275b1;
   font-size: 12px;
   line-height: 11px;
   cursor: pointer;
@@ -861,12 +860,11 @@ line-height: 11px;
   flex-wrap: wrap;
 }
 
-.hashtags-aside small{
-  background: #E9F0F8;
+.hashtags-aside small {
+  background: #e9f0f8;
   border-radius: 4px;
   padding: 7px 12px;
   margin: 0 10px 10px 0;
   font-size: 12px;
   line-height: 150%;
 }
-
