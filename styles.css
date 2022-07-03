@@ -438,7 +438,6 @@ strong {
 .dashboard-content h1 {
   font-size: 52px;
   line-height: 50px;
-  /* identical to box height */
   font-weight: 600;
   text-transform: uppercase;
   color: #0275b1;
